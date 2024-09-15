@@ -54,58 +54,58 @@ button {
   border-bottom-right-radius: 20px;
 }
 .buy-0 {
-  background: darkorange;
+  background: #a26a21;
 }
 .buy-1 {
-  background: darkorange;
+  background: #a26a21;
 }
 .buy-2 {
-  background: darkorange;
+  background: #a26a21;
 }
 .buy-4 {
-  background: darkorange;
+  background: #a26a21;
 }
 .buy-3 {
-  background: darkorange;
+  background: #a26a21;
 }
 .buy-5 {
-  background: darkorange;
+  background: #a26a21;
 }
 .buy-6 {
-  background: darkorange;
+  background: #a26a21;
 }
 .buy-7 {
-  background: darkorange;
+  background: #a26a21;
 }
 .buy-8 {
-  background: darkorange;
+  background: #a26a21;
 }
 .buy-9 {
-  background: darkorange;
+  background: #a26a21;
 }
 .buy-10 {
-  background: darkorange;
+  background: #a26a21;
 }
 .buy-11 {
-  background: darkorange;
+  background: #a26a21;
 }
 .buy-12 {
-  background: darkorange;
+  background: #a26a21;
 }
 .buy-13 {
-  background: darkorange;
+  background: #a26a21;
 }
 .buy-14 {
-  background: darkorange;
+  background: #a26a21;
 }
 .buy-15 {
-  background: darkorange;
+  background: #a26a21;
 }
 .buy-16 {
-  background: darkorange;
+  background: #a26a21;
 }
 .buy-17 {
-  background: darkorange;
+  background: #a26a21;
 }
 
 .gallery {
@@ -133,6 +133,7 @@ button {
   color: #fff;
   padding: 30px 40px;
 }
+
 .content:hover {
   box-sizing: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   transform: translate(0px, -8px);
