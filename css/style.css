@@ -1,0 +1,159 @@
+body ,html{
+    margin: 0;
+    padding: 0;
+    height: 100fr;
+    font-family: 'poppins',sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('Image/Untitled1.jpg');
+    background-size: cover; /* تجعل الصورة تغطي كامل الشاشة */
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.background{
+    background-size: cover;
+    background-position: center;
+    /*height: 100%;*/
+    display: flex;
+    height: 100vb;
+    align-items: center;
+    justify-content: center;
+}
+.booking-form{
+   
+     width: 450px;
+     background: transparent;
+    border: 2px solid rgba(255,255, 255, .2);
+    backdrop-filter: blur(7.6px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 5px;
+    padding: 30px 40px;
+}
+
+.booking-form h2{
+    text-align: center;
+}
+.booking-form form{
+    display: flex;
+    flex-direction: column;
+}
+.booking-form  select{
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid #ccc;
+}
+/*.booking-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}*/
+label{
+    padding: 4px;
+}
+input{
+    width: 450px;
+    padding: 8px 0;
+    text-align:left;
+    border-radius: 25px;
+    font-weight:lighter ;
+    border: 0.2px solid #a26a21;
+    background: #fff ;
+    color: #1d1c1c;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+input:hover span{
+    width: 100%;
+    }
+    input:hover{
+        border: none;
+    }
+button {
+    width: 420px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #a26a21;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+} 
+button a{
+    color: #fff;
+    text-align: center;
+    margin: 20px 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+span{
+    background: #a26a21;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+width: 100%;
+}
+button:hover{
+    border: none;
+}
+
+.banner {
+    width: 100%; /* Ensure no extra space */
+    height: 100cap; /* Full viewport height */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('Image/Untitled1.jpg');
+    background-size: cover; /* Ensure background image covers the area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+}
+
+.navbar{
+    width: 96%;
+    margin: auto;
+    padding: .2px 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 80px;
+    cursor: pointer;
+
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li ::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #a26a21;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li :hover::after{
+    width: 100%;
+}
+footer{
+    background-color: black;
+}
