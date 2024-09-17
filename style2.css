@@ -1,14 +1,25 @@
+<<<<<<< HEAD
 body, html {
     margin: 0;
     padding: 0;
     height: 110vh; /* تأكد من تغطية الارتفاع الكامل للعرض */
     font-family: sans-serif, Arial;
     background-color: #000; /* لون خلفية داكن بالكامل */
+=======
+/* Ensure full viewport height and zero margins/padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+>>>>>>> f4893a3b1da51e361e6a46cb74ef9a0864be1e2c
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('Image/Untitled1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+<<<<<<< HEAD
 .dot-container {
     text-align: center;
     position: absolute;
@@ -17,6 +28,39 @@ body, html {
 }
 
 /* Style for individual dots */
+=======
+.slideshow-container {
+    position: relative;
+    max-width: 80%; /* Adjust width as needed */
+    margin: auto;
+    height: 450px; /* Set height for slideshow container */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slides {
+    display: none; /* Hide all slides by default */
+    position: absolute;
+    width: 450px; /* Set width for images */
+    height: 450px; /* Set height for images */
+}
+
+.slides img {
+    width: 100%; /* Ensure image covers the slide area */
+    height: 100%; /* Ensure image covers the slide area */
+    object-fit: cover; /* Cover the dimensions of the slide */
+}
+
+.dot-container {
+    text-align: center;
+    position: absolute;
+    bottom: 20px; /* Position dots slightly below the bottom of the slideshow */
+    width: 100%;
+}
+
+>>>>>>> f4893a3b1da51e361e6a46cb74ef9a0864be1e2c
 .dot {
     height: 15px;
     width: 15px;
@@ -24,10 +68,11 @@ body, html {
     background-color: #bbb; /* Inactive dot color */
     border-radius: 50%;
     display: inline-block;
-    transition: background-color 0.6s ease;
+    transition: background-color 0.3s ease;
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 /* Active dot style */
 .dot.active {
     background-color: #717171; /* Active dot color */
@@ -138,6 +183,37 @@ body, html {
 }
 
 /* Animation */
+=======
+.dot.active {
+    background-color: #717171; /* Active dot color */
+}
+
+.button-container {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.button-container a {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 1;
+}
+
+.button-container a:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Animation for fade effect */
+>>>>>>> f4893a3b1da51e361e6a46cb74ef9a0864be1e2c
 .fade {
     -webkit-animation: fade 1.5s ease-in-out;
     -moz-animation: fade 1.5s ease-in-out;
@@ -165,10 +241,17 @@ body, html {
     to { opacity: 1 }
 }
 
+<<<<<<< HEAD
 .navbar {
     width: 96%;
     margin: auto;
     padding: .2px 0;
+=======
+/* Style for navbar */
+.navbar {
+    width: 100%;
+    padding: 10px;
+>>>>>>> f4893a3b1da51e361e6a46cb74ef9a0864be1e2c
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -179,13 +262,24 @@ body, html {
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 .navbar ul li {
+=======
+.navbar ul {
+>>>>>>> f4893a3b1da51e361e6a46cb74ef9a0864be1e2c
     list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
+<<<<<<< HEAD
+=======
+.navbar ul li {
+    margin: 0 15px;
+}
+
+>>>>>>> f4893a3b1da51e361e6a46cb74ef9a0864be1e2c
 .navbar ul li a {
     text-decoration: none;
     color: #fff;
@@ -206,7 +300,10 @@ body, html {
 .navbar ul li:hover::after {
     width: 100%;
 }
+<<<<<<< HEAD
 
 footer {
     background-color: black;
 }
+=======
+>>>>>>> f4893a3b1da51e361e6a46cb74ef9a0864be1e2c
