@@ -4,49 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Golden Scissors</title>
-    <link rel="icon" href="logo.icon">
-    <link rel="stylesheet" href="style.css">
-
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="icon" href="logo.icon" />
 </head>
 <body>
-    
     <div class="banner">
         <div class="navbar">
-            <img src="logo.jpg" class=" logo">
+            <img src="logo.jpg" class="logo" alt="Golden Scissors Logo">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="Products.html">Products</a></li>
                 <li><a href="Booking.html">Booking</a></li>
                 <li><a href="Photos.html">Photos</a></li>    
-                <li><a href="Contact_us.html"> Contact us</a></li>
-
-        
+                <li><a href="Contact_us.html">Contact Us</a></li>
             </ul>
         </div>
-   <section class="contact">
-    <div class="container">
-            <h2 style="color: aqua;">Contact_us</h2>
-        <div class="Contact-wrapper">
-                <div class="Contact-form">
 
+        <section class="Contact">
+            <div class="content">
+                <h2>Contact Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque ullam necessitatibus veniam.</p>
+            </div>
+            <div class="container">
+                <div class="contactInfo">
+                    <div class="box">
+                        <div class="icon"><i class='bx bxs-map'></i></div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Amman, Khalda, At the sign of  Arab Bank</p>
+                        </div>
+                    </div>
+                   
+                    <div class="box">
+                        <div class="icon"><i class='bx bxs-phone'></i></div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>+962777774077</p>
+                        </div>
+                    </div>
 
-
-        <h3 style="color: aqua;">send the massage</h3>
-            <form action="">
-
-                <div class="form-group">
-                    <label for="" style="color: aqua;"> Name: </label>
-<input  type="temt" name="name" id="" placeholder="Your name ">
+                    <div class="box">
+                        <div class="icon"><i class='bx bxs-envelope'></i></div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>info@example.com</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-group"></div>
-                    <label for="" style="color: aqua;"> phone: </label>
-<input  type="temt" name="phone" id="" placeholder="Your phone ">
+
+                <div class="contactform">
+                    <form action="">
+                        <h2>Send Message</h2>            
+                        <div class="inputBox">
+                            <input id="name" type="text" name="name" required>
+                            <span>Full Name</span>
+                        </div>
+
+                        <div class="inputBox">
+                            <input id="email" type="email" name="email" required>
+                            <span>Email</span>
+                        </div>
+
+                        <div class="inputBox">
+                            <textarea id="message" name="message" required></textarea>
+                            <span>Full Message</span>
+                        </div>
+
+                        <div class="inputBox">
+                            <input type="submit"  value="send ">
+                        </div>
+                    </form>
                 </div>
-            </form>
-              </div>
-        </div>
+            </div>
+        </section>
     </div>
-   </section>
-  
 </body>
 </html>
