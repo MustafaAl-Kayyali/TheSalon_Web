@@ -13,7 +13,6 @@ body, html {
     height: 100vh;
     font-family: Arial, sans-serif;
     background-color: #000;
->>>>>>> f4893a3b1da51e361e6a46cb74ef9a0864be1e2c
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('Image/Untitled1.jpg');
     background-size: cover;
     background-position: center;
@@ -28,7 +27,6 @@ body, html {
 }
 
 /* Style for individual dots */
-=======
 .slideshow-container {
     position: relative;
     max-width: 80%; /* Adjust width as needed */
@@ -60,7 +58,6 @@ body, html {
     width: 100%;
 }
 
->>>>>>> f4893a3b1da51e361e6a46cb74ef9a0864be1e2c
 .dot {
     height: 15px;
     width: 15px;
@@ -72,7 +69,6 @@ body, html {
     cursor: pointer;
 }
 
-<<<<<<< HEAD
 /* Active dot style */
 .dot.active {
     background-color: #717171; /* Active dot color */
@@ -183,7 +179,6 @@ body, html {
 }
 
 /* Animation */
-=======
 .dot.active {
     background-color: #717171; /* Active dot color */
 }
@@ -213,7 +208,6 @@ body, html {
 }
 
 /* Animation for fade effect */
->>>>>>> f4893a3b1da51e361e6a46cb74ef9a0864be1e2c
 .fade {
     -webkit-animation: fade 1.5s ease-in-out;
     -moz-animation: fade 1.5s ease-in-out;
@@ -256,17 +250,11 @@ body, html {
     align-items: center;
     justify-content: space-between;
 }
-
 .logo {
     width: 80px;
     cursor: pointer;
 }
-
-<<<<<<< HEAD
 .navbar ul li {
-=======
-.navbar ul {
->>>>>>> f4893a3b1da51e361e6a46cb74ef9a0864be1e2c
     list-style: none;
     margin: 0;
     padding: 0;
@@ -300,10 +288,4 @@ body, html {
 .navbar ul li:hover::after {
     width: 100%;
 }
-<<<<<<< HEAD
 
-footer {
-    background-color: black;
-}
-=======
->>>>>>> f4893a3b1da51e361e6a46cb74ef9a0864be1e2c
